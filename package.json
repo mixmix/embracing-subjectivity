@@ -5,14 +5,14 @@
   "main": "index.js",
   "scripts": {
     "present": "ecstatic .",
-    "build": "markdown-to-slides -t 'Embracing Subjectivity | nz.js' -d README.md -l template.html -i -s index.css -o index.html ",
+    "build": "markdown-to-slides -t 'Embracing Subjectivity | nz.js' README.md -l template.html -i -s index.css -o index.html ",
     "watch": "npm run build -- -w",
     "livereload": "wtch -d . -e html,css,png,gif,jpg | garnish --level debug",
     "static": "ecstatic-lr .",
     "start": "npm-run-all -p watch livereload static",
     "dist": "mkdir -p dist && bash -c 'cp *.{js,html,css,png,jpg,jpeg} dist'",
     "push": "gh-pages -d dist",
-"deploy": "npm-run-all -s dist build push"
+    "deploy": "npm-run-all -s dist build push"
   },
   "repository": {
     "type": "git",
