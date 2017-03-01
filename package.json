@@ -1,0 +1,38 @@
+{
+  "name": "embracing-subjectivity",
+  "version": "0.0.1",
+  "description": "a talk at nz.js 2017",
+  "main": "index.js",
+  "scripts": {
+    "present": "ecstatic .",
+    "build": "markdown-to-slides -t 'Embracing Subjectivity | nz.js' -d README.md -l template.html -i -s index.css -o index.html ",
+    "watch": "npm run build -- -w",
+    "livereload": "wtch -d . -e html,css,png,gif,jpg | garnish --level debug",
+    "static": "ecstatic-lr .",
+    "start": "npm-run-all -p watch livereload static",
+    "dist": "mkdir -p dist && bash -c 'cp *.{js,html,css,png,jpg,jpeg} dist'",
+    "push": "gh-pages -d dist",
+"deploy": "npm-run-all -s dist build push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mixmix/embracing-subjectivity.git"
+  },
+  "author": "mixmix",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mixmix/embracing-subjectivity/issues"
+  },
+  "homepage": "https://github.com/mixmix/embracing-subjectivity#readme",
+  "devDependencies": {
+    "ecstatic-lr": "^1.0.1",
+    "garnish": "^5.2.0",
+    "gh-pages": "^0.11.0",
+    "npm-run-all": "^1.6.0",
+    "wtch": "^4.0.1"
+  },
+  "dependencies": {
+    "ecstatic": "^0.8.0",
+    "markdown-to-slides": "^1.0.3"
+  }
+}

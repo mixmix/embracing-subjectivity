@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{{title}}</title>
+    <style>
+      {{{style}}}
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+{{{content}}}
+    </textarea>
+    {{{remarkSource}}}
+    <script>
+      var opts = {
+        ratio: '16:9'
+      };
+      var slideshow = remark.create(opts);
+    </script>
+    <script>{{{script}}}</script>
+  </body>
+</html>
+
