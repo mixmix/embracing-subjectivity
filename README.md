@@ -261,6 +261,7 @@ hash function produces a unique, verifiable 'finger-print' of our message.
   - hard to guess / make
 - sign things with the private part
 - people can compare with copies of your public key
+- hanko!  https://images.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F_xEZ4gcVkeIY%2FTCN3uJGn0GI%2FAAAAAAAABAk%2F9OHlcyQDUBA%2Fs1600%2FHanko.jpg&f=1
 
 ---
 ## identity through encryption

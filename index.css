@@ -24,6 +24,9 @@ p {
 img {
   height: 40vh;
 }
+img:hover {
+  outline: 0 !important;
+}
 
 .remark-slide-content {
   font-size: 2.0em;
