@@ -1,11 +1,27 @@
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat-Regular.ttf') format('truetype');
 }
-h1, h2, h3 {
+
+@font-face {
+  font-family: 'Cardo';
+  src: url('Cardo-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: Cardo, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4 {
+  font-family: Montserrat;
   font-weight: 400;
   margin-bottom: 0;
   margin-top: 0.15em;
 }
+
+img {
+  height: 50vh;
+}
+
 .remark-slide-content {
   font-size: 2.0em;
   line-height: 1.2;
@@ -30,11 +46,15 @@ a, a > code {
   color: rgb(249, 38, 114);
   text-decoration: none;
 }
-code {
-  background: none repeat scroll 0 0 #F8F8FF;
+pre code {
+  background: none repeat scroll 0 0 #fff;
   border: 1px solid #DEDEDE;
-  border-radius: 3px;
-  padding: 0 0.2em;
+  box-shadow: #eee 5px 5px 15px;
+}
+pre code.remark-code.js.javascript {
+  background: none repeat scroll 0 0 #fff;
+  border: 1px solid #DEDEDE;
+  box-shadow: #eee 5px 5px 15px;
 }
 .remark-code, .remark-inline-code { font-family: "Bitstream Vera Sans Mono", "Courier", monospace; }
 .remark-code-line-highlighted     { background-color: #373832; }
