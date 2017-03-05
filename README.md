@@ -4,93 +4,46 @@ mix
 
 `@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519`
 
+???
+A journey:
+  - web imagined differently
+
+setup check: 
+  - display settings
+  - sbot
+  - patchbay
+  - graph-viz:
+    - server
+    - chrome tab ready to load
+  - git ssb web
+    - repo loaded
+
+
 ---
-## truth
+## truth & code
 
 ???
+- this is a story about truth
+  - what is truth,
+  - where does it come from 
+  - who gets to make it
 
-this is a story about truth
-- how truth is made, who gets to make it
-- how truth changes society 
-- how code shapes truth
-
----
-## truth grows/ is constructed
-
-???
-
-is built / synthesised
-
-- it is memory / record
-- how it's told /interpretted
-
-Let's keep an eye on
-- who keeps the record
-- does the interpretting
+- a record of who or what is significant
 
 ---
-## emergent truth
+## code as Truth
 
-![campfire](http://www.twistednether.net/wp-content/uploads/2009/10/campfire1.jpg)
-
-???
-
-- stories
-- grown
-- subjective perspectives + social graphs -> inter-subjective 
-- cohesions > complexity
-- bottom up
-
----
-## objective Truth
-
-![moses](http://4.bp.blogspot.com/-IQcM8lFtQMA/UQX0JJZDt5I/AAAAAAAAFnY/lXrrjh2bag8/s1600/moses_breaking-tablets.jpg)
-
-???
-
-- calcified emergent truth? bold leader?
-- Plato + objectivity
-- trancendental, axiomatic
-- capital T truth
-- top down
+```js
+var user = {
+  userName: 'mixmix',
+  email: 'mix@enspiral.com',
+  password: 'IQcM8lFtQMA/UQX0JJZDt5I/',
+  gender: 'male'
+}
+```
 
 ---
-## objective Truth - benefits
-
-![civ3](http://www.civfanatics.com/images/civ3/tech%20tree/c3c_ancient.jpg)
-
-???
-
-- CIV > larger scale coordinations (nation-state, religions)
-
----
-## objective Truth - benefits
-
-![tenochtitlan](https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fquintessentialruminations.files.wordpress.com%2F2012%2F05%2Ftenochtitlan11.jpg&f=1)
-
-???
-
-- administration
-  - identity (tax, passport)
-  - authorisation (passport, drivers license)
-  - auditable
-
----
-## objective Truth - dangers
-
-![massacring protestants](https://upload.wikimedia.org/wikipedia/commons/5/52/Francois_Dubois_001.jpg)
-
-???
-
-- brittleness (aztecs)
-
-who is keeping the records, and why
-  - revolt (french)
-  - abuse and lies
-who is interpretting the truth
-
----
-## truth in code
+## code as Truth
 
 ```js
 return knex.schema.createTable('users', function (table) {
@@ -102,17 +55,120 @@ return knex.schema.createTable('users', function (table) {
 ```
 
 ???
+- opinionated format
+  - unique identifiers - last name 
+- rules
+- necessary simplifications to form coherent
+- code lends itself to record keeping
 
-- code lends itself to objective truth
-- a lot of administrative sotware:
-  - identities
-  - transactions
+---
+## Truth for admin
 
-- social media (hybrid)
-  - companies rolling objective systems, directly capturing emergent value 
-    - content
-    - relational + reputational data
-  - record-keeping and presentation is administered privately
+![tenochtitlan](https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fquintessentialruminations.files.wordpress.com%2F2012%2F05%2Ftenochtitlan11.jpg&f=1)
+
+???
+- been going on a while
+- civilisation takes admin
+  - recording important things 
+
+---
+## Truth - transactions
+
+![barley transaction](http://memory.loc.gov/service/amed/amcune/cf0032/0001ob.jpg)
+
+???
+- sumerians trading grains 5000 years ago
+- taxes 
+- identity?
+- offline-first immutable log
+
+---
+## Truth - identity
+
+![passport](https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.passport-photos-derby.co.uk%2Fimages%2Famerican-visa-photos.jpg&f=1)
+
+???
+- managing movement (have you paid your taxes)
+- safe passage agreements
+- notice my name is different according to the government
+
+---
+## Truth - rules
+
+![moses](http://4.bp.blogspot.com/-IQcM8lFtQMA/UQX0JJZDt5I/AAAAAAAAFnY/lXrrjh2bag8/s1600/moses_breaking-tablets.jpg)
+
+
+???
+- great for easy coherence,
+  - coordination tax
+  - societal protocols
+  - research aquaducts
+
+---
+## T is for Top-down
+
+![moses](http://4.bp.blogspot.com/-IQcM8lFtQMA/UQX0JJZDt5I/AAAAAAAAFnY/lXrrjh2bag8/s1600/moses_breaking-tablets.jpg)
+![passport](https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.passport-photos-derby.co.uk%2Fimages%2Famerican-visa-photos.jpg&f=1)
+![barley transaction](http://memory.loc.gov/service/amed/amcune/cf0032/0001ob.jpg)
+
+ _objectively True_
+
+???
+- objectivity
+  - an idea Plato rolled out
+  - Truth can exist outside of the subject, is trancendental, absolute
+
+- (benefit)
+  - great for coordination
+  - clean, tidy, safe 
+- (downside)
+  - identity (passport mix / john)
+  - gender (stats)
+
+---
+## Truth - problems
+
+![massacring protestants](https://upload.wikimedia.org/wikipedia/commons/5/52/Francois_Dubois_001.jpg)
+
+???
+- (downside) can be over-applied + abused
+  - I need to be rich, I'm gods rep on earth
+- this is the french revolution against Monarchy
+  - actually it's just a bunch of christians lynching some protestants
+- ideology
+
+---
+## another kind of truth
+
+![campfire](http://www.twistednether.net/wp-content/uploads/2009/10/campfire1.jpg)
+
+???
+- other important things to remember / record
+  - stories
+  - songs, music
+  - recipes
+  - relationships
+  - useful lessons (kumara don't grow well in the south island)
+- subjective perspectives + social graphs -> inter-subjective 
+  - emergent
+  - flexible
+  - highly fertile (compared to accounting)
+
+---
+## emergent truth aggregators
+
+![](https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.techandlife.com%2Fwp-content%2Fuploads%2F2009%2F09%2FFirst-Reddit-post2-ellipse.jpg&f=1)
+
+???
+skip?
+- Reddit
+- LinkeIn, Facebook
+
+- hybrids: objective systems closing over emergent truth
+  - efficiency of objective system
+  - richness of emergent system
+    - relational data (trust)
+  - problems of the objective system 
 
 ---
 ## less objective code
@@ -122,7 +178,6 @@ build something where :
   - anyone can interpret
 
 ???
-
 - challenge
 - i.e. a system that enable emergent inter-subjective truth
 - build twitter without a central database 
@@ -134,12 +189,11 @@ build something where :
 ### Scuttlebutt ahoy!
 
 ???
-
 spoilers:
  - it's written and running
  - it's generating, subjective truth 
 
-flash patchwork
+flash patchbay
 
 ---
 
@@ -148,6 +202,10 @@ flash patchwork
 1. n. Slang Gossip; rumor.
 2. n. _Nautical_ A drinking fountain on a ship.
 3. n. _Nautical_ A cask on a ship used to hold the day's supply of drinking water.
+
+???
+- like stories, messages are gossiped
+- remember the stories I've heard locally 
 
 ---
 ## scuttlebutt 
@@ -164,7 +222,6 @@ var message = {
 ```
 
 ???
-
 - can share
 - with no server how would I fetch this message:
   - timestamp?
@@ -189,8 +246,21 @@ var messageId = hash(message)
 hash function produces a unique, verifiable 'finger-print' of our message.
 
 ???
-
 - you've seen with git commit ids
+- plain ol' author names aren't that unique / verifiable
+
+---
+## public-private key tech
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/0c/Cylinder_seal_Shamash_Louvre_AO9132.jpg)
+
+???
+- mesopotamians
+- private part 
+  - related to the public part
+  - hard to guess / make
+- sign things with the private part
+- people can compare with copies of your public key
 
 ---
 ## identity through encryption
@@ -261,28 +331,93 @@ var signedMessage = sign(message, privateKey)
   signature: "ce+JOzOxNdCj7Vkdlgmpd+yKbw4qMpIZLm/54FJdGCMleGOS...."
 }
 ```
-an _about_ message
+an  _about_  message
 
+???
+- patchbay
+  - show @juliana
+  - rename juliana
+  - show mikey + opions
+
+- this is a fireside story
+  - plurality of opinions
+  - emergent truth
+
+---
+## re-presention of truth
+
+![patchwork-next](https://github.com/mmckegg/patchwork-next/raw/master/screenshot.jpg)
+
+???
+- how a story is told vs. recorded
+  - social media reserves pretty much all of the rights
+- patchbay (more dev-centric)
+- patchwork (more social view of the data)
+  - this interface has different opinions about how truth should emerge from subjective statements
+
+---
+## git on scuttlebutt
+
+![dnsssb](https://www.scuttlebutt.nz/assets/git-ssb-repo.png)
+
+???
+- code is just messages
+- github as a fire-side story (I don't have to hang out with a company)
+
+---
+## music on scuttlebutt
+
+![ferment](ferment.png)
+
+???
+- anger driven development
+  - creating music, paying for a service that is getting in the way
+- ssb for discovery and messaging
+- webtorrent for sharing music
+
+---
+## there & back again
+
+???
+- reverse culture shock
+
+---
+## border control
+
+![logins](username_taken.png)
 
 ???
 
-thoughts from watching video: 
+- username taken
+  - proving identity at the border (papers please)
+  - passport
+  - why can't I just speak and the truth will emerge?
 
-- fireside > music, fiction, startups, meaning
-- objective truth > uniform bean counting
-  - more emphasis on the power and good of this
-- objective top down systems slurping up the music, the magic of the data inbetween
+---
+## top-down UI 
 
-- new zealand context for different truths? putting up flags = land ownership?
+![kiwibank](kiwibank.png) 
 
-going back to the norm-web:
-  - platforms asking me to prove who I am
-  - logins ... so top-down ... it's border control (papers please)
-  - comic sans accessability
-  - kiwibank interface ... why can't I re-present my own data
+???
+- re-presenting data 
+  - why can't I re-present my own data
+- comic sans: article about accessibility of fonts
 
+---
+## connectivity 
 
+![](island_replication.jpeg)
 
+???
+- is the internet down?
+- island replication
+  - islands
+  - ships
+  - space
 
+---
+## embrace subjectivity
 
+???
+It's just my opinion, but I'm investing in a more subjective web
 

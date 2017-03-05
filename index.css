@@ -18,8 +18,11 @@ h1, h2, h3, h4 {
   margin-top: 0.15em;
 }
 
+p {
+  display: flex;
+}
 img {
-  height: 50vh;
+  height: 40vh;
 }
 
 .remark-slide-content {
