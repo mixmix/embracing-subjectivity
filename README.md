@@ -7,6 +7,10 @@ mix
 ???
 A journey:
   - web imagined differently
+    - MAKE THIS STRONGER
+    - quantitative vs qualitative language
+    - institutionally legible
+    - issues on git repos, issues on people
 
 setup check: 
   - display settings
@@ -416,8 +420,23 @@ an  _about_  message
   - ships
   - space
 
+- instant git-ssb
+- instant search
+
+---
+## problems with current tech
+
+- advertising
+  - push-based
+- access to your feed
+- shaping your re-presentation
+
+- global singletons
+
 ---
 ## embrace subjectivity
+
+![sailing into the west](http://68.media.tumblr.com/23858ef00a47e7ee1255c1865ee2a319/tumblr_nd6hiqXZAy1sns9vwo1_1280.jpg)
 
 ???
 It's just my opinion, but I'm investing in a more subjective web
