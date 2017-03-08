@@ -20,9 +20,10 @@ h1, h2, h3, h4 {
 
 p {
   display: flex;
+  justify-content: space-between;
 }
 img {
-  height: 40vh;
+  height: 42vh;
 }
 img:hover {
   outline: 0 !important;
