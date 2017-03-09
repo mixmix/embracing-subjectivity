@@ -211,7 +211,7 @@ how do you feel about administrative opinions about your:
 ---
 ## inter-subjective truths
 
-![campfire](campfire.jpg)
+![campfire with link](campfire_inter_subjective.jpeg)
 
 ???
 
