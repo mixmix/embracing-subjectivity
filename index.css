@@ -23,25 +23,37 @@ p {
   justify-content: space-between;
 }
 img {
-  height: 42vh;
+  height: 50vh;
 }
 img:hover {
   outline: 0 !important;
 }
 
+table {
+  margin-top: 2rem;
+}
+
+th {
+  border-bottom: 1px black solid;
+}
+
+td {
+  padding: 1rem 5rem 0 0;
+}
+
 .remark-slide-content {
-  font-size: 2.0em;
+  /* font-size: 2.0em; */
   line-height: 1.2;
 }
 .remark-slide-content h1 {
-  font-size: 3.5em;
+  font-size: 4.5em;
 }
-.remark-slide-content h2 {
-  font-size: 2em;
-}
-.remark-slide-content h3 {
-  font-size: 1.8em;
-}
+/* .remark-slide-content h2 { */
+/*   font-size: 1.8em; */
+/* } */
+/* .remark-slide-content h3 { */
+/*   font-size: 1.6em; */
+/* } */
 .footnote {
   position: absolute;
   bottom: 3em;
@@ -59,6 +71,7 @@ pre code {
   box-shadow: #eee 5px 5px 15px;
 }
 pre code.remark-code.js.javascript {
+  font-size: 1em;
   background: none repeat scroll 0 0 #fff;
   border: 1px solid #DEDEDE;
   box-shadow: #eee 5px 5px 15px;

@@ -15,15 +15,14 @@ mix
 
 ## what is this talk about?
 
-- understanding the web today
-- an experiment + a journey
+- the trajectory of the web
+- useful primitives for decent tech
 - a new hope
-- some useful primitives for decent tech
 
 ---
 ## organising civilisation
 
-![tenochtitlan](https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fquintessentialruminations.files.wordpress.com%2F2012%2F05%2Ftenochtitlan11.jpg&f=1)
+![tenochtitlan](tenochtitlan.jpg)
 
 ???
 ## how did humans get where we got?
@@ -36,7 +35,7 @@ mix
 ---
 ## transactions
 
-![barley transaction](http://memory.loc.gov/service/amed/amcune/cf0032/0001ob.jpg)
+![barley transaction](sumerian_trade.jpg)
 
 ???
 ## how long?
@@ -46,9 +45,9 @@ A clay tablet
 - table
 
 ---
-## some tax documentation
+## tax documentation
 
-![rosetta](https://upload.wikimedia.org/wikipedia/commons/2/23/Rosetta_Stone.JPG)
+![rosetta](rosetta_stone.jpg)
 
 ???
 ## Rosetta stone
@@ -56,9 +55,9 @@ A clay tablet
 tax edict from 2000 year ago
 
 ---
-## military org
+## logistics
 
-![mainframe](http://bitsavers.trailing-edge.com/pdf/univac/1100/photos/1106.jpg)
+![mainframe](univac_1100.jpg)
 
 ???
 ## NATO 
@@ -144,7 +143,7 @@ return knex.schema.createTable('users', function (table) {
 ---
 ## plato
 
-![plato](http://3.bp.blogspot.com/-4tLynuYBkhQ/TqcL1B3lDVI/AAAAAAAAAB0/DqucJFRCgxo/s1600/Plato.jpg)
+![plato](plato.jpg)
 
 ???
 ## I blame this guy
@@ -157,7 +156,7 @@ return knex.schema.createTable('users', function (table) {
 ---
 ## objective truth
 
-![moses](http://4.bp.blogspot.com/-IQcM8lFtQMA/UQX0JJZDt5I/AAAAAAAAFnY/lXrrjh2bag8/s1600/moses_breaking-tablets.jpg)
+![moses](moses_breaking_tablets.jpg)
 
 ???
 ## trancendental truth
@@ -193,7 +192,7 @@ how do you feel about administrative opinions about your:
 ---
 ## the good word
 
-![massacring protestants](https://upload.wikimedia.org/wikipedia/commons/5/52/Francois_Dubois_001.jpg)
+![massacring protestants](masacaring_protestants.jpg)
 
 ???
 ## an error in reading or writing a text
@@ -205,7 +204,7 @@ how do you feel about administrative opinions about your:
 ---
 ## an alternative
 
-![campfire](http://www.twistednether.net/wp-content/uploads/2009/10/campfire1.jpg)
+![campfire](campfire.jpg)
 
 ???
 
@@ -218,7 +217,7 @@ how do you feel about administrative opinions about your:
 ---
 ## inter-subjective truths
 
-![campfire](http://www.twistednether.net/wp-content/uploads/2009/10/campfire1.jpg)
+![campfire](campfire.jpg)
 
 ???
 
@@ -261,8 +260,29 @@ flash patchbay
 3. n. _Nautical_ A cask on a ship used to hold the day's supply of drinking water.
 
 ???
+
+## Gossip
+
 - like stories, messages are gossiped
 - remember the stories I've heard locally 
+
+---
+## one 'database'
+
+web | scuttlebutt
+:---|:---
+twitter / fb | patchwork, **patchbay**, patchfoo, decent, ...
+git + github | git-ssb
+dns | dnssb
+soundcloud | ferment
+spotify | voltra
+
+
+
+???
+## many interfaces
+
+
 
 ---
 ## important decent primitives
@@ -282,16 +302,10 @@ you've seen these already
 ---
 ## content addressable storage
 
-![file](https://images.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F-sY7whMXT83o%2FUECGK-oSdeI%2FAAAAAAAAABM%2F-OXkkmppfvE%2Fs1600%2Ftext-file-icon.png&f=1)
-![fingerprint](https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fthesalesblog.com%2Fwp-content%2Fuploads%2F2010%2F03%2FFingerprint.jpg&f=1)
-
-```js
-hash(file) // => 63ef70b672446094009382b92008feb9b909d443
-```
+![file](textfile.png)
+![fingerprint](finger_print.jpeg)
 
 ???
-
-
 ## verify right data
 
 ## OR requests the exact data
@@ -299,10 +313,29 @@ hash(file) // => 63ef70b672446094009382b92008feb9b909d443
 ## fingerprints > used to find people
 
 ---
-## public-private keys - signing
+## content addressable storage
 
-![hanko stamped doc](https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fmedia-cache-ec0.pinimg.com%2F736x%2Fd2%2Fd6%2F5d%2Fd2d65d783a02f8e865e07070d3befa05.jpg&f=1)
-![hanko stamp](https://images.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F_xEZ4gcVkeIY%2FTCN3uJGn0GI%2FAAAAAAAABAk%2F9OHlcyQDUBA%2Fs1600%2FHanko.jpg&f=1)
+```js
+
+        hash(file) // => 63ef70b672446094009382b92008feb9b909d443
+
+
+```
+
+???
+## verify right data
+
+## OR requests the exact data
+
+## fingerprints > used to find people
+
+---
+## public-private keys
+
+#### signing
+
+![hanko stamped doc](hanko_document.jpeg)
+![hanko stamp](hank_stamp.jpg)
 
 ???
 ## mesopatamians 3000 years ago
@@ -312,9 +345,11 @@ hash(file) // => 63ef70b672446094009382b92008feb9b909d443
 ## private part - only you have (it's for signing)
 
 ---
-## public-private keys - encryption
+## public-private keys
 
-![encryption diagram](https://images.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F-z-acQ-nDXqU%2FTxku_0Q3TvI%2FAAAAAAAAAKM%2FuVrkIgSLYjs%2Fs1600%2Fpke.gif&f=1)
+#### encryption
+
+![encryption diagram](public_private_encryption.gif)
 
 ???
 ## public part encrypts (hides content)
@@ -413,7 +448,7 @@ var signedMessage = sign(message, privateKey)
 ## content addressable storage
 
 ```js
-{
+var signedMessage = {
   author: '@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519',
   content: {
     type: 'post',
@@ -425,7 +460,7 @@ var signedMessage = sign(message, privateKey)
 ```
 
 ```js
-var messageId = hash(message)
+var messageId = hash(signedMessage)
 // => %emva3qXR6+XtLKwxWIsVB/hO1i5PmV9v2AP5hjRNDKQ
 ```
 hash produces a unique, verifiable 'finger-print' of our message.
@@ -489,7 +524,7 @@ hash produces a unique, verifiable 'finger-print' of our message.
 ---
 ## examples - `git-update`
 
-![dnsssb](https://www.scuttlebutt.nz/assets/git-ssb-repo.png)
+![dnsssb](git_ssb_repo.png)
 
 ???
 - code is just messages
@@ -527,14 +562,16 @@ hash produces a unique, verifiable 'finger-print' of our message.
 ![](island_replication.jpeg)
 
 ???
-- is the internet down?
-- island replication
-  - islands
-  - ships
-  - space
+## is the internet down?
 
-- instant git-ssb
-- instant search
+## islands
+- ships
+- space
+
+## instant
+- git-ssb
+- search
+  - contrast this to http(2)
 
 ---
 ## top-down UI 
@@ -578,22 +615,23 @@ hash produces a unique, verifiable 'finger-print' of our message.
   - my identity is not just me, it's my context, my social graph
 
 ---
-![sailing into the west](http://68.media.tumblr.com/23858ef00a47e7ee1255c1865ee2a319/tumblr_nd6hiqXZAy1sns9vwo1_1280.jpg)
-
-### scuttlebutt.nz
+![sailing into the west](grey_havens.jpg)
 
 ???
-It's just my opinion, but I'm investing in a more subjective web
 
-what is wrong with the old-web?
-  - it used to be cool
-    - people making stuff however! woo!
-  - platforms have brought sweet efficiency + interconneciton with their objective efficiency 
-  - they're also a block
+- heading to mars /climate-pocalpse, 
+  - either way the old-web ain't gonna cut it
 
-I set out on a journey, and I won't be coming back.
+- If you're curious, you're most welcome
 
-If you're curious, you're most welcome
+---
+## scuttlebutt.nz
+
+`@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519`
+
+`@whimful`
+
+???
 
 ---
 background-color: black;
