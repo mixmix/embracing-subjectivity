@@ -4,6 +4,8 @@ mix
 
 `@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519`
 
+@whimful
+
 ???
 ## CHECKLIST
 
@@ -17,7 +19,7 @@ mix
 
 - the trajectory of the web
 - useful primitives for decent tech
-- a new hope
+- a new hope about the future
 
 ---
 ## organising civilisation
@@ -25,8 +27,9 @@ mix
 ![tenochtitlan](tenochtitlan.jpg)
 
 ???
-## how did humans get where we got?
+## what's the trend we're on?
 
+## how did we get where we are?
 
 - recording things that matter
 
@@ -62,10 +65,10 @@ tax edict from 2000 year ago
 ???
 ## NATO 
 
-- 45 years ago
+- 70s, univac 1100 
 - supply logistics + payroll
-
-## amazon
+- technicians were given a rank below general
+  - but no-one hassled the nerds because if they did payroll > vietname
 
 ---
 ## identity
@@ -73,7 +76,7 @@ tax edict from 2000 year ago
 ![passport](passport.jpg)
 
 ???
-## to what degree is defintion of identity linked to instutions?
+## how has this organisation influenced identity?
 
 - checking taxes
 - communicating with other orgs 
@@ -84,8 +87,7 @@ tax edict from 2000 year ago
 
 - name
 - gender
-
-## why is this passport the way it is?
+  - M (male), F (female) or X (indeterminate/unspecified)
 
 ---
 ## institutional legibility
@@ -115,19 +117,14 @@ tax edict from 2000 year ago
 
 ```js
 return knex.schema.createTable('users', function (table) {
-  table.string('userName')
+  table.string('userName').unique()
   table.string('email')
   table.string('password')
-  table.boolean('gender')
+  table.string('gender').notNullable()
 })
 ```
 
 ???
-## code plays an important part of trend
-
-- records
-- rules
-
 ## what's wrong with opinions?
 
 - opinions are great
@@ -135,10 +132,10 @@ return knex.schema.createTable('users', function (table) {
   - learning
   - great things 
 
-- code enables even more more of the same
-  - some table
-  - plus built in rules + logic
-  - extends
+## code extends opinions
+
+### shape of records
+### rules
 
 ---
 ## plato
@@ -148,10 +145,7 @@ return knex.schema.createTable('users', function (table) {
 ???
 ## I blame this guy
 
-## objectivity
-
-- holy wars
-- medicine
+## objectivity, Rant
 
 ---
 ## objective truth
@@ -175,7 +169,7 @@ return knex.schema.createTable('users', function (table) {
 ![passport](passport.jpg)
 
 ???
-## easy to mistake this document (and it's opinions) for the truth
+## easy to mistake opinions for the truth
 
 .
 
@@ -282,13 +276,15 @@ spotify | voltra
 ???
 ## many interfaces
 
+## you can make whatever
 
+## NOW: Primitives > Messages > Apps the use
 
 ---
 ## important decent primitives
 
-- content addressable storage
-- public/ private keys
+1. content addressable storage
+2. public/ private keys
 
 ---
 ## content addressable storage
@@ -362,7 +358,7 @@ probably should improve diagram
 
 ```js
 var message = {
-  author: '@mixmix',
+  author: '@mix',
   content: {
     type: 'post',
     text: 'hope you are enjoying nz.js so far'
@@ -499,6 +495,11 @@ hash produces a unique, verifiable 'finger-print' of our message.
 
 ![patchwork-next](patchwork-next.png)
 
+???
+## alt name view
+
+## different visibility of network
+
 ---
 ## examples - `post`
 
@@ -551,6 +552,19 @@ hash produces a unique, verifiable 'finger-print' of our message.
 - webtorrent for sharing music
 
 ---
+## integration (emergent, free)
+
+ scuttlebutt                 | message types
+:----------------------------|:---
+ patchwork, patchfoo, decent | `[post, about, like, follow]`
+ patchbay                    | `[post, about, like, follow, git-repo, git-update, issue]`
+ git-ssb                     | `[post, git-repo, git-update, issue]`
+ dnssb                       | ? 
+ ferment                     | `[follow, like, music?]`
+ voltra                      | ?
+
+
+---
 ## there & back again
 
 ???
@@ -578,6 +592,8 @@ hash produces a unique, verifiable 'finger-print' of our message.
 
 ![kiwibank](kiwibank.png) 
 
+[github.com/mixmix/kiwibank-sparkline](https://www.github.com/mixmix/kiwibank-sparkline)
+
 ???
 - re-presenting data 
   - why can't I re-present my own data
@@ -586,14 +602,22 @@ hash produces a unique, verifiable 'finger-print' of our message.
 ## no ads
 
 ---
-## papers please
+## unique names
 
 ![logins](username_taken.png)
 
 ???
-- weird constraints on form filling in
+## names are contextual
 
-## why would I need to present my papers before I speak?
+## bad design 
+
+---
+## papers please
+
+![google login](papers_please.jpg)
+
+???
+## why would I need to authentice before I speak?
 - not chill 
 
 ---
@@ -615,6 +639,8 @@ hash produces a unique, verifiable 'finger-print' of our message.
   - my identity is not just me, it's my context, my social graph
 
 ---
+## embracing subjectivity
+
 ![sailing into the west](grey_havens.jpg)
 
 ???
