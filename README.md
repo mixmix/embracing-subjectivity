@@ -333,6 +333,8 @@ you've seen these already
 ![hanko stamped doc](hanko_document.jpeg)
 ![hanko stamp](hank_stamp.jpg)
 
+japanese hanko
+
 ???
 ## mesopatamians 3000 years ago
 
@@ -556,13 +558,14 @@ hash produces a unique, verifiable 'finger-print' of our message.
 
  scuttlebutt                 | message types
 :----------------------------|:---
- patchwork, patchfoo, decent | `[post, about, like, follow]`
- patchbay                    | `[post, about, like, follow, git-repo, git-update, issue]`
- git-ssb                     | `[post, git-repo, git-update, issue]`
- dnssb                       | ? 
- ferment                     | `[follow, like, music?]`
+ patchfoo,                   | `[post, like]`
+ patchwork                   | `[post, about, like, follow, channel]`
+ patchbay                    | `[post, about, like, follow, git-repo, git-update, pull-request, issue]`
+ git-ssb                     | `[post, about, like, git-repo, git-update, git-repo, pull-reuqest, issue]`
+ dnssb                       | `[ssb-dns]`
+ ferment                     | `[ferment/audio, ferment/update, ferment/repost, ferment/like]`
  voltra                      | ?
-
+ wifi-ssb                    | `[wifi-network]`
 
 ---
 ## there & back again
@@ -639,7 +642,6 @@ hash produces a unique, verifiable 'finger-print' of our message.
   - my identity is not just me, it's my context, my social graph
 
 ---
-## embracing subjectivity
 
 ![sailing into the west](grey_havens.jpg)
 
@@ -651,19 +653,11 @@ hash produces a unique, verifiable 'finger-print' of our message.
 - If you're curious, you're most welcome
 
 ---
+# embracing subjectivity
+
 ## scuttlebutt.nz
 
 `@ye+QM09iPcDJD6YvQYjoQc7sLF/IFhmNbEqgdzQo3lQ=.ed25519`
 
 `@whimful`
-
-???
-
----
-background-color: black;
-color: white;
-
-## embracing subjectivity
-
-.
 
